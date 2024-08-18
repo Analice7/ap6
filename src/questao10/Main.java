@@ -1,5 +1,13 @@
 package questao10;
 
+/*No modelo anterior, onde as categorias eram tratadas como subclasses de `Filme`, 
+ * cada instância de filme podia pertencer apenas a uma categoria, o que impede a 
+ * combinação de múltiplas categorias como "Infantil" e "Lançamento". 
+ * 
+ * Ao invés de usar herança, podemos modelar as categorias como classes separadas 
+ * que podem ser associadas a um filme. Isso permite que um filme tenha múltiplas categorias associadas a ele.
+*/
+
 import java.util.Scanner;
 
 public class Main {
